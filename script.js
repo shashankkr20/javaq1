@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Set the target time to today 6:30 AM IST
     const targetISTTime = new Date(currentISTDate);
-    targetISTTime.setHours(6, 58, 0, 0);
+    targetISTTime.setHours(10, 0, 0, 0);
 
     if (currentISTDate >= targetISTTime) {
         showPDF();
